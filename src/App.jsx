@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <Header></Header>
-    <Home_Page></Home_Page>g
+    <Home_Page></Home_Page>
     </>
   );
 }
