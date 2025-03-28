@@ -1,0 +1,25 @@
+.sec {
+    display: inline-block;
+    max-width: 250x;
+    max-height: 300px;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.image {
+    border-radius: 10px;
+   display: inline-block;
+   max-width: 245px;
+   max-height: 200px;
+}
+.sec p {
+    font-size: 1.2rem;
+    font-family: 'Arial', Courier, monospace;
+   
+    justify-self: start;
+}
+.sec:hover {
+    border-color: cadetblue;
+    background-color: darkgoldenrod;
+}
