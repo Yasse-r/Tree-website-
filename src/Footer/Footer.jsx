@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 function Footer(){
 
@@ -23,9 +23,10 @@ function Footer(){
                     <input type='text' placeholder='Enter you First name...' className='bg-white border-2 p-3 rounded-xl hover:border-[#00703c] hover:border-2 focus:border-green-500 outline-none focus:ring focus:ring-[#00703c] ' ></input>
                     <input type='text' placeholder='Enter email address' className='bg-white  border-2 p-3 rounded-xl hover:border-[#00703c] hover:border-2 focus:border-green-500 outline-none focus:ring focus:ring-[#00703c] ' ></input>
                 </div>
+                <Link to="/Login">
                 <button  className=" text-sm sm:w-auto h-15 place-self-center   sm:text-2xl  bg-[#00703c] rounded-md text-white m-5  py-[10px]  px-[30px]">
                     Sign up
-                </button>
+                </button></Link>
             </section>
         </section>
         
